@@ -329,7 +329,7 @@ path("facturas/",views.FacturaView.as_view()),
 					   </p>	
 					<h3>User Authentication</h3>
 
-					<span class="image main djngo"><img class="java" src="/images/login.png" alt="" /></span>
+					<span class="image main djngo"><img class="java" src="images/login.png" alt="" /></span>
 
 						<p>For user authentication, the endpoint "/login" is introduced, incorporating the login functionality provided by rest_framework_simplejwt.views.</p>
 						
@@ -354,7 +354,7 @@ urlpatterns = [
 ]
 </code>
 </pre>
-					<h3>file logInUser.api.js (react App)</h3>
+					<h4>file logInUser.api.js (react App)</h4>
 					<p>Below is the code utilized by the React component to initiate a login request to the Django back-end.</p>
 					<pre>
 						<code>
@@ -374,7 +374,7 @@ export const userAut = async (username, password) => {
 						</code>
 					</pre>
 					<hr />
-				<h4 class="major">COMPONENT: INICIO</h4>
+				<h3 class="major">COMPONENT: INICIO</h3>
 			<p>Within this React component, requests to the Django back-end are orchestrated using the access token obtained during the login process. Safely stored in local storage, this token acts as a secure key for accessing and modifying product information. The component effortlessly manages a spectrum of operations, encompassing the addition, modification, and deletion of products, offering an intuitive interface for comprehensive product management.</p>
 				<span class="image main djngo"><img class="java" src="images/Home ver Registros.png" alt="" /></span>
 
