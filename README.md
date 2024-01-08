@@ -1,2 +1,0 @@
-# my-portafolio
-my-portfolio
